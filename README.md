@@ -1,4 +1,4 @@
-#easy-react-setup
+#react-boilerplate
 This is a minimal dev environment for building apps with React.  It utilizes the Redux framework, which simplifies the Flux pattern.
 
 ##Usage
