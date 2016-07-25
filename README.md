@@ -2,10 +2,10 @@
 This is a minimal dev environment for building apps with React.  It utilizes the Redux framework, which simplifies the Flux pattern.
 
 ##Usage
-	- Install node modules with `npm install`
-	- Start the dev server with `npm start`
-	- Navigate to `localhost:3000`
-	- Generate compressed production code with `npm run build` (Not necessary for development)
+  - Install node modules with `npm install`
+  - Start the dev server with `npm start`
+  - Navigate to `localhost:3000`
+  - Generate compressed production code with `npm run build` (Not necessary for development)
 
 ##Node Modules and Their Purpose
 You will get the most out of this boilerplate if you understand all of the node modules and their role.  The following is a list of the node modules along with a candid description of the module.
