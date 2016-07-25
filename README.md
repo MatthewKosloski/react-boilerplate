@@ -24,9 +24,11 @@ You will get the most out of this boilerplate if you understand all of the node 
   - `webpack` — This is a module bundling tool that also compiles code.  We use it in this boilerplate to turn our ES6 code back to JavaScript the browser can understand.  It also minifies our JavaScript and generates sourcemaps.  You can also compile sass with this tool, but I save that for Gulp.
   - `webpack-dev-middleware` — A small middleware for a connect-based middleware stack. It uses Webpack to compile assets in-memory and serve them.  (In our case, under /static)
 
+##Redux
+When learning React, you will come across something called Flux.  It's an application architecture pattern Facebook decided to use for React.  I would highly suggest taking a look at [Redux](http://redux.js.org/docs/introduction/) and using this approach rather than Facebook's take on Flux.  Redux simplifies the whole process of maintaining state and allocating parts of the state to different reducers.
+
+
 ##Helpful Links
   - [Webpack Docs](https://webpack.github.io/docs/usage.html)
   - [Babel](https://babeljs.io/docs/setup/#installation)
-
-##Redux
-When learning React, you will come across something called Flux.  It's an application architecture pattern Facebook decided to use for React.  I would highly suggest taking a look at [Redux](http://redux.js.org/docs/introduction/) and using this approach rather than Facebook's take on Flux.  Redux simplifies the whole process of maintaining state and allocating parts of the state to different reducers.
+  - [Redux Examples](https://github.com/reactjs/redux/tree/master/examples)
