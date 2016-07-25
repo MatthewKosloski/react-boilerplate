@@ -27,3 +27,6 @@ You will get the most out of this boilerplate if you understand all of the node 
 ##Helpful Links
   - [Webpack Docs](https://webpack.github.io/docs/usage.html)
   - [Babel](https://babeljs.io/docs/setup/#installation)
+
+##Redux
+When learning React, you will come across something called Flux.  It's an application architecture pattern Facebook decided to use for React.  I would highly suggest taking a look at [Redux](http://redux.js.org/docs/introduction/) and using this approach rather than Facebook's take on Flux.  Redux simplifies the whole process of maintaining state and allocating parts of the state to different reducers.
